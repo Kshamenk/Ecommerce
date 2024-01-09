@@ -1,0 +1,13 @@
+.social_container {
+    padding: 25px 50px;
+  }
+  a {
+    margin: 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    color: white;
+  }
+  
+  a:hover {
+    transform: translateY(-2px);
+  }

@@ -1,0 +1,13 @@
+.scorecontainer {
+    display: inline-block;
+  }
+  
+  .scorecontainer span {
+    color: #fca311; 
+    font-size: 20px;
+  }
+  
+  .scorecontainer svg {
+    color: #ccc; 
+    font-size: 20px;
+  }

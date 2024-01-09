@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* .profile p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  } */
+
+  @media (max-width: 768px) {
+    .profile {
+      justify-content: center; /* Centrar el contenido en pantallas pequeñas */
+      gap: 5px; 
+    }
+  
+    .profile img {
+      width: 40px; 
+      height: 40px;
+    }
+  
+    .profile p {
+      font-size: 16px; 
+    }
+  }

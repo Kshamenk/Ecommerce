@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Raleway:wght@200&display=swap");
+
+footer {
+  background-color: #26272b;
+  padding: 0 2rem 0;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #737373;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.about {
+  width: 50%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.branch {
+  
+  margin: 0;
+  padding: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #737373;
+  
+}
+
+.branch h2 {
+  margin: 1rem;
+}
+
+.branch_list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.branch_list span {
+  margin: 0.5rem;
+}
+
+.lower {
+  display: flex;
+}
+
+.branch_list span:active,
+.branch_list span:focus,
+.branch_list span:hover {
+  color: #3366cc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+  padding: 1rem;
+  width: 50%;
+}
+
+.social_icons span {
+  background-color: #eceeef;
+  color: #818a91;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  margin: 2rem;
+}
+
+.social_icons a:active,
+.social_icons a:focus,
+.social_icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}

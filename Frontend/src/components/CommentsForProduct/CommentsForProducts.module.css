@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .comment {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .comment-text {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .comment-date {
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  /* Estilos Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px; 
+    }
+  
+    .comment {
+      max-width: 90%; 
+    }
+  
+    .comment-text {
+      font-size: 1rem; 
+    }
+  
+    .comment-date {
+      font-size: 0.7rem; 
+    }
+  }

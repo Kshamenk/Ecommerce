@@ -1,0 +1,128 @@
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  background-color: #7809fd; 
+  color: #fff;
+  font-size: 16px;
+  font-weight: 50px;
+  border: none;
+  padding: 16px 15px 15px 5px; 
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  border-top-left-radius: 0px 0px;
+  border-bottom-left-radius: 0px;
+  
+}
+
+.allBtn {
+  cursor: pointer;
+  background-color: #e76f51; 
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s ease;
+}
+
+.searchBtn:hover,
+.allBtn:hover {
+  background-color: #9ab1a4; 
+  
+}
+
+/* Media Query para hacerlo responsive */
+@media (max-width: 768px) {
+  .container {
+    justify-content: center; 
+    margin: 10px; 
+  }
+
+  form {
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+  .searchBtn,
+  .allBtn {
+    margin-left: 10px ;
+    width: 33%; 
+  }
+}
+
+
+
+
+
+
+
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px; 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  margin-top: -9px;
+}
+
+.input {
+  flex: 1; 
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  background-color: #fca311;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px; 
+  transition: background-color 0.3s ease;
+  margin-left: -15px; 
+} */
+
+

@@ -1,0 +1,35 @@
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .pagebutton {
+    background-color: #7809fd;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pagebutton:hover {
+    background-color: #9ab1a4;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+  
+    .pagebutton {
+      margin: 5px 2px;
+    }
+  }

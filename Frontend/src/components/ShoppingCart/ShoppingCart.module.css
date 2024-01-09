@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .shoppingCartContainer {
+    margin: 30px;
+  }
+  
+  .clearCartButton {
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .clearCartButton:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+  }
+  
+  .tables {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .productTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .productTable th,
+  .productTable td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .productTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .productTable td {
+    font-size: 16px;
+  }
+  
+  .productTable button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+  .productTable button:hover {
+    color: #e74c3c;
+  }
+  
+  .totalTable {
+    width: 100%;
+  }
+  
+  .totalTable td {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .linkButton {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .linkButton button {
+    transform: translateY(-2px);
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3)
+  }
+  
+  .linkButton button:hover {
+    background-color: #45a049;
+  }
+  
+  .paymentButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3)
+  }
+  
+  .paymentButton:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px)
+  }
+  
+  /* Media Queries */
+  
+  /* Pantallas más pequeñas como tablets y móviles */
+  @media (max-width: 768px) {
+    .tables {
+      flex-direction: column;
+    }
+  
+    .productTable {
+      width: 100%;
+    }
+  
+    .totalTable {
+      width: 100%;
+    }
+  }
+  

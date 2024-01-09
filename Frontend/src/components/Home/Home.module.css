@@ -1,0 +1,26 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .bannerImage {
+    width: 90%;
+    margin-top: 8px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+
+
+  /* Media Query para hacerlo responsive */
+@media (max-width: 768px) {
+  .bannerImage {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
